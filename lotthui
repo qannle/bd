@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quà Tặng Lọt Thúi</title>
+    <style>
+        body {
+            background-color: #b0c4de; /* Màu xanh dương pastel */
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            color: #333;
+            text-align: center;
+        }
+        h1 {
+            font-size: 2.5em;
+            color: #4b0082; /* Một màu tím đậm */
+            margin-bottom: 20px;
+        }
+        .button-container {
+            display: flex;
+            gap: 20px;
+        }
+        .button {
+            background-color: #dda0dd; /* Màu tím pastel */
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 12px;
+            transition: background-color 0.3s ease;
+        }
+        .button:hover {
+            background-color: #ba55d3; /* Màu tím đậm hơn khi rê chuột */
+        }
+        #audio-player {
+            display: none; /* Ẩn trình phát nhạc */
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Mời Lọt thúi chọn quà:</h1>
+
+    <div class="button-container">
+        <a href="https://drive.google.com/file/d/1o-CK-H2lsUWILxCOHaAR-Lp8LWa5zys_/view?usp=sharing&t=26" class="button" target="_blank">Quà 1</a>
+        <a href="https://love.tsonit.com/gacha-yeu-thuong" class="button" target="_blank">Quà 2</a>
+    </div>
+    
+    <div id="audio-player">
+      <iframe width="0" height="0" src="https://www.youtube.com/embed/0?autoplay=1&loop=1&playlist=0&enablejsapi=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+</body>
+</html>
